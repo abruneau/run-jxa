@@ -32,7 +32,7 @@
     "automation"
   ],
   "dependencies": {
-    "execa": "^0.5.0",
+    "execa": "^0.7.0",
     "macos-version": "^4.0.0",
     "subsume": "^1.0.0"
   },
