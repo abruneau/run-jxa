@@ -24,6 +24,6 @@ test('runJxa() - string', async t => {
 	t.is(res, '🐴-🦄');
 });
 
-test('runJxa.sync()', async t => {
+test('runJxa.sync()', t => {
 	t.is(m.sync((a, b) => `${b}-${a}`, ['🦄', '🐴']), '🐴-🦄');
 });
